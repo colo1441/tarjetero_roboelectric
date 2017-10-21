@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="credit_card_names">
+        <item>"MI VISA"</item>
+        <item>"MI MASTERCARD"</item>
+        <item>"SUPER ORO"</item>
+        <item>"PLATINO"</item>
+        <item>"DIAMANTE"</item>
+    </string-array>
+
+    <string-array name="credit_card_numbers">
+        <item>"3421 5456 4567 5784"</item>
+        <item>"3678 2306 4489 3467"</item>
+        <item>"1214 3543 6545 5432"</item>
+        <item>"3435 4654 6565 4565"</item>
+        <item>"3245 6547 6879 8765"</item>
+    </string-array>
+
+    <string-array name="credit_card_banks">
+        <item>"Bankia"</item>
+        <item>"Santander"</item>
+        <item>"Santander"</item>
+        <item>"Unicaja"</item>
+        <item>"Rural Caja"</item>
+    </string-array>
+
+
+    <integer-array name="credit_card_balances">
+        <item>130</item>
+        <item>640</item>
+        <item>1200</item>
+        <item>35087</item>
+        <item>578000</item>
+    </integer-array>
+
+    <string-array name="credit_card_cadu">
+        <item>"05/18"</item>
+        <item>"11/21"</item>
+        <item>"12/17"</item>
+        <item>"07/23"</item>
+        <item>"02/22"</item>
+    </string-array>
+
+</resources>

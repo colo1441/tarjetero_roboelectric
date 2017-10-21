@@ -1,9 +1,10 @@
 package com.macode.tarjetero;
 
-import android.app.Activity;
 import android.support.v7.widget.CardView;
 
 //Robolectric imports ************************//
+import com.macode.tarjetero.ui.activities.MainActivity;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,7 +12,7 @@ import org.robolectric.Robolectric;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 //*********************************************//
-import static org.junit.Assert.*;
+
 
 @RunWith(RobolectricTestRunner.class)
 public class SingleCardActivityTest {
@@ -22,7 +23,7 @@ public class SingleCardActivityTest {
     @Before
     public void setUp() throws Exception {
         mainActivity = Robolectric.buildActivity(MainActivity.class).create().get();
-        pressCard = (CardView) mainActivity.findViewById(R.id.card_view);
+        pressCard = (CardView) mainActivity.findViewById(R.id.card_view_layout);
     }
 
     @Test

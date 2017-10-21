@@ -18,16 +18,16 @@
  *
  */
 
-package com.macode.tarjetero;
+package com.macode.tarjetero.model;
 
-public class DataObject {
+public class CreditCard {
     private String name;
     private String bank;
     private String number;
     private String caducity;
-    private Double balance;
+    private int balance;
 
-    DataObject (String name, String bank, String number, String caducity, Double balance){
+    public CreditCard(String name, String bank, String number, String caducity, int balance){
         this.name = name;
         this.bank = bank;
         this.number = number;
@@ -69,11 +69,11 @@ public class DataObject {
         this.number = newNumber;
     }
 
-    public Double getBalance() {
+    public int getBalance() {
         return this.balance;
     }
 
-    public void setBalance(Double newBalance) {
+    public void setBalance(int newBalance) {
         this.balance = newBalance;
     }
 }
